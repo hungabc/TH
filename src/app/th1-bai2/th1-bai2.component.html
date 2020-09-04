@@ -1,0 +1,25 @@
+<div class="container md-5">
+    <div class="card"></div>
+    <div class="row">
+        <div class="col-sm-4">
+            <span>Nhập n: </span>
+        </div>
+        <div class="col-sm-4">
+            <input type="text"  [(ngModel)]="n" class="form-control">
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <span>Nhập x: </span>
+        </div>
+        <div class="col-sm-4">
+            <input type="text"  [(ngModel)]="x" class="form-control">
+        </div>
+        
+    </div>
+    <div class="row text-center">
+        <button type="button" class="btn btn-primary" (click)="tinh()">Xem kết Quả</button>
+    </div>
+    <span>Kết quả: {{tong}}</span>
+</div>

@@ -1,0 +1,9 @@
+<p>Nhập số a: <input type="number" [(ngModel)]="a" required></p>
+<p>Nhập số b: <input type="number" [(ngModel)]="b" required></p>
+<p>Nhập số c: <input type="number" [(ngModel)]="c" required></p>
+<button *ngIf="a != 0" class="btn btn-primary" (click)="kq()">Xem kết quả</button>
+<h2>{{ ALERT }}</h2>
+<p *ngIf="x1 != undefined">x1 = {{ x1 }}</p>
+<p *ngIf="x2 != undefined">x2 = {{ x2 }}</p>
+<p *ngIf="x3 != undefined">x3 = {{ x3 }}</p>
+<p *ngIf="x4 != undefined">x4 = {{ x4 }}</p>
